@@ -1,0 +1,21 @@
+
+directories:
+    - build
+    - src
+    - tests
+    - //
+
+dictionariesByFileName: []
+
+dictionariesByFileExtension:
+    neon: en custom
+    php: en php custom
+
+dictionaryDirectories:
+    - build/spell-checker
+    - vendor/spell-checker
+
+checkLocalIgnores: true
+
+dictionaryFilesToCheck:
+    - custom.dic
